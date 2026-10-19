@@ -1,0 +1,25 @@
+/* RC23.05 consolidation: contained visual features, consistent identity, no functional changes. */
+/* One logo specification across homepage and internal pages. */
+.nav .brand img,.cc-rc2-nav .brand img,.home-page .nav .brand img,.home-page .cc-rc2-nav .brand img{height:64px;width:auto;max-height:64px;max-width:180px;object-fit:contain}
+.nav .nav-inner,.cc-rc2-nav .nav-inner{min-height:88px;height:auto;padding-block:10px}
+@media(max-width:1050px){.nav .brand img,.cc-rc2-nav .brand img,.home-page .nav .brand img{height:56px;max-height:56px}.nav .nav-inner,.cc-rc2-nav .nav-inner{min-height:76px}}
+/* Return the photograph to a bounded executive feature, rather than a page-width banner. */
+.home-page .rc23-corporate-hero{padding:28px 0 34px;background:linear-gradient(180deg,#061423 0%,#0a2235 100%);border:0;overflow:visible}
+.home-page .rc23-corporate-hero .hero-grid{position:relative;display:flex;align-items:center;min-height:clamp(500px,42vw,640px);margin:0;padding:clamp(48px,5vw,80px) clamp(30px,5vw,72px);overflow:hidden;border:1px solid rgba(99,194,222,.2);border-radius:20px;background:#071a2a;box-shadow:0 22px 60px rgba(0,0,0,.16)}
+.home-page .rc23-corporate-hero .rc23-hero-photo{position:absolute;inset:0;z-index:-1;background-image:linear-gradient(90deg,rgba(3,16,30,.98) 0%,rgba(3,16,30,.92) 31%,rgba(3,16,30,.45) 62%,rgba(3,16,30,.14) 100%),url('../img/rc23/executive-boardroom.webp');background-size:cover;background-position:center 42%}
+.home-page .rc23-corporate-hero .hero-grid>div:nth-child(2){width:min(640px,65%);max-width:100%;position:relative;z-index:2}
+.home-page .rc23-corporate-hero h1{font-size:clamp(2.8rem,4.6vw,4.9rem);line-height:1.06;max-width:660px}
+.home-page .rc23-corporate-hero .lead{font-size:clamp(1.04rem,1.28vw,1.2rem)}
+/* Silverfort: photo belongs to the inset panel, not to an edge-to-edge section. */
+.home-page .rc23-silverfort{background:#07192b;border:0;overflow:visible;padding-block:clamp(30px,4vw,58px)}
+.home-page .rc23-silverfort:before{display:none}
+.home-page .rc23-silverfort .cc-sf-panel{position:relative;isolation:isolate;overflow:hidden;border-radius:20px;background:#081b2d;border:1px solid rgba(93,203,229,.23);box-shadow:0 18px 50px rgba(0,0,0,.16);padding:clamp(30px,4vw,56px)}
+.home-page .rc23-silverfort .cc-sf-panel:before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(5,20,35,.97) 0%,rgba(5,20,35,.91) 43%,rgba(5,20,35,.62) 100%),url('../img/rc23/enterprise-datacentre.webp') center / cover no-repeat}
+.home-page .rc23-silverfort .cc-sf-main h2{font-size:clamp(2rem,2.9vw,3.25rem)}
+.home-page .rc23-silverfort .rc23-sf-logo{width:175px;max-width:100%;height:auto;padding:6px 9px;margin-bottom:18px;background:#fff;border-radius:4px}
+/* Assessments remain a clean, light content section without an image banner. */
+.home-page .rc23-assessment-gateway{background:#f2f7fa;padding:clamp(44px,5vw,76px) 0}
+.home-page .rc23-gateway-card{min-height:210px}
+@media(max-width:1050px){.home-page .rc23-corporate-hero .hero-grid{min-height:490px;padding:52px 35px}.home-page .rc23-corporate-hero .hero-grid>div:nth-child(2){width:min(620px,82%)}}
+@media(max-width:700px){.home-page .rc23-corporate-hero{padding:14px 0 24px}.home-page .rc23-corporate-hero .hero-grid{min-height:0;padding:46px 24px;border-radius:16px}.home-page .rc23-corporate-hero .hero-grid>div:nth-child(2){width:100%}.home-page .rc23-corporate-hero .rc23-hero-photo{background-image:linear-gradient(90deg,rgba(3,16,30,.96),rgba(3,16,30,.79)),url('../img/rc23/executive-boardroom.webp');background-position:60% center}.home-page .rc23-corporate-hero h1{font-size:clamp(2.3rem,8.2vw,3.7rem)}.home-page .rc23-silverfort .cc-sf-panel{padding:28px 22px;border-radius:16px}.home-page .rc23-silverfort .cc-sf-panel:before{background-image:linear-gradient(90deg,rgba(5,20,35,.97),rgba(5,20,35,.83)),url('../img/rc23/enterprise-datacentre.webp')}.home-page .rc23-silverfort .rc23-sf-main h2{font-size:clamp(1.9rem,6.2vw,2.7rem)}}
+@media(prefers-reduced-data:reduce){.home-page .rc23-corporate-hero .rc23-hero-photo,.home-page .rc23-silverfort .cc-sf-panel:before{background-image:none}}

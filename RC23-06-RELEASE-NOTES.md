@@ -1,0 +1,1 @@
+RC23.06 staging: consistent larger brand logo, corrected photographic hero stacking, preserved contained layout and all functional scripts. Desktop screenshot reviewed; live browser/mobile and FormSubmit delivery remain NOT VERIFIED. No production CNAME.

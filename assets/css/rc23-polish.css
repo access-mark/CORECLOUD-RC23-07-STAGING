@@ -1,0 +1,13 @@
+/* RC23.06 visual hardening. Source: reviewed desktop staging screenshot. */
+/* Consistent, readable brand mark across every page. */
+.nav .brand img,.cc-rc2-nav .brand img,.home-page .nav .brand img,.home-page .cc-rc2-nav .brand img{height:78px!important;max-height:78px!important;width:auto!important;max-width:none!important;object-fit:contain}
+.nav .nav-inner,.cc-rc2-nav .nav-inner{min-height:96px!important;padding-block:8px!important}
+/* Keep the photographed hero contained and the image reliably in front of its backdrop. */
+.home-page .rc23-corporate-hero .hero-grid{isolation:isolate}
+.home-page .rc23-corporate-hero .rc23-hero-photo{z-index:0!important;pointer-events:none}
+.home-page .rc23-corporate-hero .hero-grid>div:nth-child(2){z-index:2}
+.home-page .rc23-corporate-hero .orchestration-board{display:none}
+/* Reduce the visual weight of the partner grid immediately beneath the hero. */
+.home-page .rc23-ecosystem,.home-page .rc23-strategic-ecosystem{box-shadow:none}
+@media(max-width:1050px){.nav .brand img,.cc-rc2-nav .brand img,.home-page .nav .brand img{height:66px!important;max-height:66px!important}.nav .nav-inner,.cc-rc2-nav .nav-inner{min-height:82px!important}}
+@media(max-width:700px){.nav .brand img,.cc-rc2-nav .brand img,.home-page .nav .brand img{height:60px!important;max-height:60px!important}.nav .nav-inner,.cc-rc2-nav .nav-inner{min-height:74px!important}.home-page .rc23-corporate-hero .hero-grid{padding:38px 22px}.home-page .rc23-corporate-hero h1{font-size:clamp(2.3rem,8vw,3.3rem)}}

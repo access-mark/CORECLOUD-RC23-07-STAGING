@@ -1,0 +1,62 @@
+/* RC23 corporate experience: presentation only. All existing paths and assessment code remain unchanged. */
+.home-page .rc23-corporate-hero{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(115deg,#061423 0%,#0b2940 58%,#0a2335 100%)}
+.home-page .rc23-corporate-hero>.container{position:relative;z-index:1}
+.home-page .rc23-corporate-hero .hero-grid{position:relative;isolation:isolate;min-height:clamp(440px,47vw,690px);align-items:center}
+.home-page .rc23-corporate-hero .hero-grid>div:nth-child(2){position:relative;z-index:2;max-width:710px}
+.home-page .rc23-corporate-hero .rc23-hero-photo{position:absolute;z-index:-1;inset:0 -6vw 0 34%;background-image:linear-gradient(90deg,#061423 0%,rgba(6,20,35,.92) 10%,rgba(6,20,35,.28) 53%,rgba(6,20,35,.05) 100%),url('../img/rc23/executive-boardroom.webp');background-size:cover;background-position:center 42%;pointer-events:none}
+.home-page .rc23-corporate-hero h1{max-width:670px;text-wrap:balance;text-shadow:0 2px 18px rgba(0,0,0,.26)}
+.home-page .rc23-corporate-hero .lead{max-width:600px}
+.home-page .rc23-corporate-hero .orchestration-board{display:none}
+.home-page .rc23-corporate-hero .partner-strip{position:relative;z-index:2}
+.home-page .rc23-silverfort{background:#07192b;position:relative;isolation:isolate;overflow:hidden}
+.home-page .rc23-silverfort:before{content:'';position:absolute;z-index:-1;inset:0;background:linear-gradient(90deg,#07192b 0%,rgba(7,25,43,.96) 35%,rgba(7,25,43,.55) 76%,rgba(7,25,43,.72) 100%),url('../img/rc23/enterprise-datacentre.webp') center / cover no-repeat}
+.home-page .rc23-silverfort .cc-sf-panel{background:rgba(6,22,38,.58);border:1px solid rgba(84,188,218,.2);box-shadow:0 16px 54px rgba(0,0,0,.16)}
+.home-page .rc23-silverfort .cc-sf-aside{background:rgba(4,17,29,.83)}
+.rc23-sf-logo{display:block;max-width:175px;max-height:54px;width:auto;height:auto;object-fit:contain;object-position:left center;margin-bottom:15px}
+@media(max-width:900px){.home-page .rc23-corporate-hero .hero-grid{min-height:520px}.home-page .rc23-corporate-hero .rc23-hero-photo{inset:0 -4vw 0 8%;background-image:linear-gradient(90deg,rgba(6,20,35,.94),rgba(6,20,35,.64)),url('../img/rc23/executive-boardroom.webp')}.home-page .rc23-corporate-hero .hero-grid>div:nth-child(2){max-width:100%}}
+@media(max-width:600px){.home-page .rc23-corporate-hero .hero-grid{min-height:0;padding-block:52px}.home-page .rc23-corporate-hero .rc23-hero-photo{inset:0 -5vw;background-position:60% center;background-image:linear-gradient(90deg,rgba(6,20,35,.96),rgba(6,20,35,.8)),url('../img/rc23/executive-boardroom.webp')}.home-page .rc23-silverfort:before{background-image:linear-gradient(90deg,rgba(7,25,43,.94),rgba(7,25,43,.86)),url('../img/rc23/enterprise-datacentre.webp')}}
+@media(prefers-reduced-data:reduce){.home-page .rc23-corporate-hero .rc23-hero-photo,.home-page .rc23-silverfort:before{background-image:none}}
+
+/* RC23.3 corporate experience: enhancement layer, no new scripts */
+.home-page .rc23-corporate-hero{border-bottom:1px solid rgba(80,185,216,.25)}
+.home-page .rc23-corporate-hero .hero-grid{min-height:clamp(480px,49vw,720px)}
+.home-page .rc23-corporate-hero .rc23-hero-photo{inset:-1px -7vw -1px 29%;background-image:linear-gradient(90deg,#061423 0%,rgba(6,20,35,.94) 17%,rgba(6,20,35,.3) 65%,rgba(6,20,35,.05) 100%),linear-gradient(0deg,rgba(6,20,35,.58),transparent 40%),url('../img/rc23/executive-boardroom.webp')}
+.home-page .rc23-corporate-hero h1{font-size:clamp(2.7rem,5.25vw,5.35rem);line-height:1.04;letter-spacing:-.048em;max-width:750px}
+.home-page .rc23-corporate-hero .lead{font-size:clamp(1.06rem,1.55vw,1.32rem);line-height:1.55;max-width:590px}
+.home-page .rc23-corporate-hero .hero-actions .btn.primary{box-shadow:0 12px 34px rgba(35,175,213,.18)}
+.home-page .rc23-silverfort{border-top:1px solid rgba(93,203,229,.12);border-bottom:1px solid rgba(93,203,229,.15)}
+.home-page .rc23-silverfort:before{background-image:linear-gradient(90deg,#07192b 0%,rgba(7,25,43,.95) 32%,rgba(7,25,43,.38) 74%,rgba(7,25,43,.65) 100%),url('../img/rc23/enterprise-datacentre.webp')}
+.home-page .rc23-silverfort .cc-sf-panel{backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px)}
+.home-page .rc23-silverfort .rc23-sf-logo{max-width:188px;max-height:65px;object-fit:contain}
+.rc23-assessment-gateway{position:relative;padding:clamp(55px,6vw,94px) 0;background:linear-gradient(150deg,#f7fafc 0%,#eaf2f6 100%);color:#0a2437}
+.rc23-gateway-intro{display:flex;align-items:end;justify-content:space-between;gap:25px;margin-bottom:30px}
+.rc23-gateway-intro>div{max-width:750px}.rc23-gateway-intro h2{font-size:clamp(1.9rem,3vw,3rem);line-height:1.12;letter-spacing:-.035em;color:#09283c;margin:12px 0}.rc23-gateway-intro p{font-size:1.08rem;color:#425e70;line-height:1.6}.rc23-gateway-intro .eyebrow{color:#167a9b}.rc23-gateway-intro .gradient-text{color:#158eaf;background:none;-webkit-text-fill-color:currentColor}.rc23-gateway-intro>.btn{flex-shrink:0;color:#0b354a;border-color:#7db8c9}
+.rc23-gateway-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}.rc23-gateway-card{display:flex;flex-direction:column;min-height:225px;padding:24px 22px;border-radius:16px;background:#fff;border:1px solid #dce7ed;color:#0a2437;text-decoration:none;box-shadow:0 8px 30px rgba(15,57,76,.055);transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}.rc23-gateway-card:hover,.rc23-gateway-card:focus-visible{transform:translateY(-4px);border-color:#46aec9;box-shadow:0 16px 36px rgba(15,57,76,.12)}.rc23-gateway-number{font-size:.7rem;font-weight:700;letter-spacing:.14em;color:#178cab}.rc23-gateway-card h3{color:#0a2437;font-size:1.3rem;line-height:1.2;margin:18px 0 9px}.rc23-gateway-card p{color:#4d6574;line-height:1.5;font-size:.94rem;margin:0 0 22px}.rc23-gateway-arrow{margin-top:auto;color:#127e9e;font-weight:700;font-size:.88rem}
+@media(max-width:1050px){.rc23-gateway-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.rc23-gateway-intro{display:block}.rc23-gateway-intro>.btn{margin-top:14px}.rc23-gateway-grid{grid-template-columns:1fr}.rc23-gateway-card{min-height:0}.home-page .rc23-corporate-hero .rc23-hero-photo{inset:0 -5vw;background-image:linear-gradient(90deg,rgba(6,20,35,.97),rgba(6,20,35,.77)),url('../img/rc23/executive-boardroom.webp')}.home-page .rc23-corporate-hero h1{font-size:clamp(2.55rem,10vw,4rem)}}
+@media(prefers-reduced-motion:reduce){.rc23-gateway-card{transition:none}.rc23-gateway-card:hover{transform:none}}
+@media(prefers-reduced-data:reduce){.home-page .rc23-corporate-hero .rc23-hero-photo,.home-page .rc23-silverfort:before{background-image:none}}
+
+/* RC23.04: layout corrections after rendered staging review. No new scripts. */
+@media(min-width:901px){
+.home-page .rc23-corporate-hero{padding-top:0;padding-bottom:44px;background:linear-gradient(180deg,#061423,#092237)}
+.home-page .rc23-corporate-hero .hero-grid{display:flex;align-items:center;min-height:clamp(540px,47vw,720px);padding:clamp(60px,7vw,110px) clamp(30px,4vw,64px);margin-inline:calc(-1 * clamp(0px,2vw,34px));overflow:hidden;border-radius:0 0 20px 20px}
+.home-page .rc23-corporate-hero .rc23-hero-photo{inset:0;z-index:-1;background-image:linear-gradient(90deg,rgba(3,16,30,.98) 0%,rgba(4,19,34,.92) 23%,rgba(4,19,34,.65) 46%,rgba(4,19,34,.12) 76%),linear-gradient(0deg,rgba(3,16,30,.62),transparent 30%),url('../img/rc23/executive-boardroom.webp');background-position:center,center,center 43%;background-size:cover}
+.home-page .rc23-corporate-hero .hero-grid>div:nth-child(2){width:min(650px,59%);max-width:none}
+.home-page .rc23-corporate-hero h1{font-size:clamp(3.5rem,5.4vw,5.9rem);line-height:1.02;max-width:660px;letter-spacing:-.055em}
+.home-page .rc23-corporate-hero .lead{font-size:clamp(1.08rem,1.5vw,1.35rem);max-width:570px;line-height:1.6}
+.home-page .rc23-corporate-hero .partner-strip{margin-top:26px}
+}
+.home-page .rc23-corporate-hero .cc-editorial-outcome{max-width:590px}
+.home-page .rc23-corporate-hero .hero-actions .btn{font-size:clamp(.87rem,1vw,1rem);padding:12px 19px;min-height:43px}
+.home-page .rc23-silverfort .cc-sf-panel{padding-block:clamp(28px,4vw,60px);backdrop-filter:none;-webkit-backdrop-filter:none}
+.home-page .rc23-silverfort .rc23-sf-logo{display:block;width:clamp(150px,18vw,218px);max-width:218px;max-height:none;height:auto;padding:8px 11px;background:#fff;border-radius:5px;margin-bottom:22px}
+.home-page .rc23-silverfort .cc-sf-main h2{font-size:clamp(2.15rem,3.3vw,3.65rem);line-height:1.09}
+.home-page .rc23-silverfort .cc-sf-main .lead{font-size:clamp(1rem,1.3vw,1.18rem)}
+.home-page .rc23-silverfort .cc-sf-aside{border:1px solid rgba(100,204,231,.24)}
+.home-page .rc23-assessment-gateway .rc23-gateway-card{min-height:235px}
+.home-page .rc23-assessment-gateway .rc23-gateway-card p{font-size:1rem}
+@media(min-width:901px){.home-page .nav .brand img,.home-page .cc-rc2-nav .brand img{height:56px;width:auto;max-height:56px}}
+@media(max-width:900px){.home-page .rc23-corporate-hero .hero-grid{display:flex;min-height:510px;padding:58px 16px;align-items:center}.home-page .rc23-corporate-hero .rc23-hero-photo{inset:0;background-image:linear-gradient(90deg,rgba(3,16,30,.98),rgba(3,16,30,.78)),url('../img/rc23/executive-boardroom.webp');background-position:center 43%}.home-page .rc23-corporate-hero .hero-grid>div:nth-child(2){width:100%;max-width:650px}}
+@media(max-width:600px){.home-page .rc23-corporate-hero .hero-grid{min-height:0;padding:58px 5px}.home-page .rc23-corporate-hero h1{font-size:clamp(2.65rem,10vw,4rem)}.home-page .rc23-silverfort .rc23-sf-logo{width:165px}}
+@media(prefers-reduced-data:reduce){.home-page .rc23-corporate-hero .rc23-hero-photo{background-image:none}}
